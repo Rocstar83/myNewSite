@@ -1,0 +1,187 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>News Portal</title>
+
+        <!--    Bootstrap CSS link  -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+            integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" 
+            crossorigin="anonymous">
+
+        <!--    Bootstrap JS links  -->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+            crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="container">
+
+            <!--        Responsive Navigation Bar with a Toggle Button     -->
+            <nav class="navbar navbar-expand-md navbar-light bg-light">
+                <a class="navbar-brand h1" href="#">The News</a>
+                <button class="navbar-toggler" type="button" data-target="#newsMenu" data-toggle="collapse" 
+                        aria-controls="newsMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="newsMenu">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link" href="#">Home</a>
+                        <a class="nav-item nav-link" href="#">News</a>
+                        <a class="nav-item nav-link" href="#">Contacts</a>
+                        <a class="nav-item nav-link" href="#">About</a>
+                    </div>
+                </div>
+            </nav>
+
+            <!--        Jumbotron that spans the whole width of the webpage     -->
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="jumbotron">
+                        <h1 class="display-4">Get the latest news on trending topics.</h1>
+                        <hr class="my-4">
+                        <p>Subsribe for the latest news</p>
+                        <button type="button" class="btn btn-danger">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+
+            <!--        Responsive Cards.. Different spans for different screen device sizes       -->
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="text-center">Headlines</h4>
+                    <hr class="my-4">
+                </div>
+            </div>
+            <div class="row">
+                <!--Card1-->
+                <div class="col-md-4 col-sm-6 col-s-12">
+                    <div class="card">
+                        <img class="card-img-top" src="news_1.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">News Title</h5>
+                            <p class="card-text">News description</p>
+                            <a class="btn btn-danger" href="#">Read more..</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card2-->
+                <div class="col-md-4 col-sm-6 col-s-12">
+                    <div class="card">
+                        <img class="card-img-top" src="news_1.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">News Title</h5>
+                            <p class="card-text">News description</p>
+                            <a class="btn btn-danger" href="#">Read more..</a>
+                        </div>
+                    </div>
+                </div>
+                <!--Card3-->
+                <div class="col-md-4 col-sm-6 col-s-12">
+                    <div class="card">
+                        <img class="card-img-top" src="news_1.jpeg" alt="">
+                        <div class="card-body">
+                            <h5 class="card-title">News Title</h5>
+                            <p class="card-text">News description</p>
+                            <a class="btn btn-danger" href="#">Read more..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--News1-->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="news_2.jpeg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Drinking Coffee can boost productivity</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia est non quibusdam.
+                                Quia vitae voluptatum, id hic ducimus voluptas provident? Voluptatibus qui aliquam
+                                temporibus fugiat. Iure nam reiciendis sed dolor.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit qui veritatis 
+                                quis ab dignissimos saepe! Reprehenderit assumenda quo laborum quasi possimus commodi, 
+                                obcaecati magni quis accusantium autem, harum culpa.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis adipisci 
+                                laudantium obcaecati, qui iusto eos culpa aliquid maxime consequuntur tenetur officia 
+                                asperiores soluta quod neque. Eveniet fugit magnam ex.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn btn-info">Read more..</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--News2-->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="news_2.jpeg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Drinking Coffee can boost productivity</h1>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia est non quibusdam.
+                                Quia vitae voluptatum, id hic ducimus voluptas provident? Voluptatibus qui aliquam
+                                temporibus fugiat. Iure nam reiciendis sed dolor.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit qui veritatis
+                                quis ab dignissimos saepe! Reprehenderit assumenda quo laborum quasi possimus commodi,
+                                obcaecati magni quis accusantium autem, harum culpa.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis adipisci
+                                laudantium obcaecati, qui iusto eos culpa aliquid maxime consequuntur tenetur officia
+                                asperiores soluta quod neque. Eveniet fugit magnam ex.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <button class="btn btn-info">Read more..</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--News3-->
+            <div class="row mt-5">
+                <div class="col-md-4">
+                    <img class="img-fluid" src="news_2.jpeg" alt="">
+                </div>
+                <div class="col-md-8">
+                    <!--    you can place the HEADER, PARAGRAPH and the BUTTON in the same row 
+                            unlike in different rows like the previous 2 News blocks    -->
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h1>Drinking Coffee can boost productivity</h1>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officia est non quibusdam.
+                                Quia vitae voluptatum, id hic ducimus voluptas provident? Voluptatibus qui aliquam
+                                temporibus fugiat. Iure nam reiciendis sed dolor.
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odit qui veritatis
+                                quis ab dignissimos saepe! Reprehenderit assumenda quo laborum quasi possimus commodi,
+                                obcaecati magni quis accusantium autem, harum culpa.
+                                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti nobis adipisci
+                                laudantium obcaecati, qui iusto eos culpa aliquid maxime consequuntur tenetur officia
+                                asperiores soluta quod neque. Eveniet fugit magnam ex.</p>
+                            <button class="btn btn-info">Read more..</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
